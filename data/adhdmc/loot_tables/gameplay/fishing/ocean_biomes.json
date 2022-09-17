@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:kelp"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:seagrass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ink_sac"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_egg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_slice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vine"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cocoa_beans"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mossy_cobblestone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fern"
+        }
+      ]
+    }
+  ]
+}

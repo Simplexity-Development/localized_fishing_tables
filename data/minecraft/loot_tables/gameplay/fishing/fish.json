@@ -23,11 +23,6 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:pufferfish"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:frogspawn"
         }
       ]
     }

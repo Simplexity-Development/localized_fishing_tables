@@ -78,7 +78,7 @@
               "function": "minecraft:set_damage",
               "damage": {
                 "min": 0,
-                "max": 0.25
+                "max": 0.15
               },
               "add": false
             },
@@ -103,7 +103,7 @@
               "function": "minecraft:set_damage",
               "damage": {
                 "min": 0,
-                "max": 0.25
+                "max": 0.15
               },
               "add": false
             }

@@ -47,6 +47,46 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight" : 3,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 0.25
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 10,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "weight" : 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 10,
+              "treasure": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 0.25
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "functions": [
             {
               "add": false,

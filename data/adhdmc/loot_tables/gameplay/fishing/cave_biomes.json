@@ -56,6 +56,10 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:glow_ink_sac"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:sculk"
         }
       ]

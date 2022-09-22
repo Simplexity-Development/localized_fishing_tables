@@ -489,6 +489,10 @@
               ]
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "adhdmc:gameplay/fishing/misc_biomes"
         }
       ]
     }

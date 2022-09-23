@@ -6,22 +6,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 100,
           "name": "minecraft:cod"
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 100,
           "name": "minecraft:salmon"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 15,
           "name": "minecraft:tropical_fish"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 15,
           "name": "minecraft:pufferfish"
         },
         {

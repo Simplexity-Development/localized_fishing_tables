@@ -23,6 +23,16 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight" : 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight" : 5
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:shulker_shell",
           "weight" : 5
         },
@@ -111,13 +121,73 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:iron_shovel",
+          "weight" : 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 0.15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "weight" : 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 0.15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight" : 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 0.15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:name_tag",
           "weight" : 5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_helmet",
-          "weight" : 5,
+          "weight" : 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -129,7 +199,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_chestplate",
-          "weight" : 5,
+          "weight" : 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -141,7 +211,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_leggings",
-          "weight" : 5,
+          "weight" : 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -153,7 +223,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_boots",
-          "weight" : 5,
+          "weight" : 1,
           "functions": [
             {
               "function": "minecraft:set_damage",

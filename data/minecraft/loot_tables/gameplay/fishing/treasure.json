@@ -193,6 +193,14 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
               "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 0.15
+              },
+              "add": false
             }
           ]
         },
@@ -205,6 +213,14 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
               "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 0.15
+              },
+              "add": false
             }
           ]
         },
@@ -217,6 +233,14 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
               "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 0.15
+              },
+              "add": false
             }
           ]
         },

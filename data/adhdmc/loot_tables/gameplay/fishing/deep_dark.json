@@ -6,43 +6,47 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine_shard"
+          "name": "minecraft:sculk_vein"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine_crystals"
+          "name": "minecraft:sculk"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:nautilus_shell"
+          "name": "minecraft:sculk_sensor"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:kelp"
+          "name": "minecraft:white_wool"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:sea_pickle"
+          "name": "minecraft:dark_oak_log"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:seagrass"
+          "name": "minecraft:gunpowder"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:ink_sac"
+          "name": "minecraft:arrow"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gravel"
+          "name": "minecraft:torch"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:sand"
+          "name": "minecraft:cobblestone"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:turtle_egg"
+          "name": "minecraft:glow_ink_sac"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh"
         }
       ]
     }

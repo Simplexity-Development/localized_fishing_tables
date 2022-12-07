@@ -14,27 +14,86 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:mycelium"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:bowl"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:dark_oak_sapling"
+          "name": "minecraft:mushroom_stew"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:spruce_sapling"
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:absorption",
+                  "duration": 500
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:podzol"
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:darkness",
+                  "duration": 500
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:apple"
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:haste",
+                  "duration": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:speed",
+                  "duration": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:wither",
+                  "duration": 500
+                }
+              ]
+            }
+          ]
         }
       ]
     }

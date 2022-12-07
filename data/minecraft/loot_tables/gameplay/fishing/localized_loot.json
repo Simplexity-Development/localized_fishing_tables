@@ -61,13 +61,29 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biome": "minecraft:deep_dark"
+                        "biome": "minecraft:dripstone_caves"
                       }
-                    },
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "adhdmc:gameplay/fishing/deep_dark",
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biome": "minecraft:dripstone_caves"
+                        "biome": "minecraft:deep_dark"
                       }
                     }
                   ]
@@ -283,6 +299,82 @@
           "children": [
             {
               "type": "minecraft:loot_table",
+              "name": "adhdmc:gameplay/fishing/mountain_biomes",
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:grove"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:snowy_slopes"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:jagged_peaks"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:frozen_peaks"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:windswept_savanna"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:savanna_plateau"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:windswept_hills"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:windswept_gravelly_hills"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:windswept_forest"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:stony_shore"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
               "name": "adhdmc:gameplay/fishing/plains_biomes",
               "conditions": [
                 {
@@ -323,7 +415,29 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/mushroom_biomes",
+              "name": "adhdmc:gameplay/fishing/end_biomes",
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "dimension": "minecraft:the_end"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "adhdmc:gameplay/fishing/dark_forest_biomes",
               "conditions": [
                 {
                   "condition": "minecraft:alternative",
@@ -334,6 +448,46 @@
                         "biome": "minecraft:dark_forest"
                       }
                     },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:old_growth_pine_taiga"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:old_growth_spruce_taiga"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:taiga"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:mushroom_fields"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "adhdmc:gameplay/fishing/mushroom_biomes",
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
@@ -409,6 +563,12 @@
                       "predicate": {
                         "biome": "minecraft:warm_ocean"
                       }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:beach"
+                      }
                     }
                   ]
                 }
@@ -442,46 +602,6 @@
                       "condition": "minecraft:location_check",
                       "predicate": {
                         "biome": "minecraft:sparse_jungle"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/taiga_biomes",
-              "conditions": [
-                {
-                  "condition": "minecraft:alternative",
-                  "terms": [
-                    {
-                      "condition": "minecraft:location_check",
-                      "predicate": {
-                        "biome": "minecraft:old_growth_pine_taiga"
-                      }
-                    },
-                    {
-                      "condition": "minecraft:location_check",
-                      "predicate": {
-                        "biome": "minecraft:old_growth_spruce_taiga"
-                      }
-                    },
-                    {
-                      "condition": "minecraft:location_check",
-                      "predicate": {
-                        "biome": "minecraft:snowy_taiga"
-                      }
-                    },
-                    {
-                      "condition": "minecraft:location_check",
-                      "predicate": {
-                        "biome": "minecraft:taiga"
                       }
                     }
                   ]

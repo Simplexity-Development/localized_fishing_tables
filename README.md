@@ -1,53 +1,42 @@
-# LocalizedFishingTables
+# Biome-Specific Fishing Loot Tables
 
-Datapack that adds localized loot. 
+This datapack adds biome-specific fishing loot tables to Minecraft, so that what can be fished up in different biomes is unique and more varied.
 
-## README is a WIP
+## Features
 
-## Dark Forest Biomes
+   - Biome-specific loot tables for the following biome groups:
+     - cave_biomes
+     - dark_forest_biomes
+     - deep_dark
+     - desert_biomes
+     - end_biomes
+     - flower_forests
+     - jungle_biomes
+     - lush_caves
+     - misc_biomes
+     - mountain_biomes
+     - mushroom_biomes
+     - ocean_biomes
+     - plains_biomes
+     - river_biomes
+     - snow_biomes
+     - swamp_biomes
 
-Items:
-* Brown mushroom
-* Red mushroom
-* Bowl
-* Dark oak sapling
-* Spruce sapling
-* Podzol
-* Apple
-* Spruce sapling
-* Dandelion
-* Coarse dirt
-* Fern
-* Mossy cobblestone
-* Gravel
+## Installation
 
-## Deep Dark
+    - Download the datapack from the [releases](https://github.com/ADHDMC/LocalizedFishingTables/releases) page.
+    - Open your Minecraft world and click on "Edit" in the main menu.
+    - Click on "Open World Folder" in the "Worlds" tab.
+    - Open the "datapacks" folder and place the downloaded datapack zip file in this folder.
+    - In-game, type the following command to enable the datapack: `/datapack enable "file/localized-fishing-tables"`
 
-Items: 
-* Sculk vein
-* Sculk
-* Sculk sensor
-* White wool
-* Dark oak log
-* Gunpowder
-* Arrow
-* Torch
-* Cobblestone
-* Glow ink sac
-* Rotten flesh
+## Usage
 
-## Desert Biomes
+Once the datapack is installed and enabled, the loot tables will be automatically applied to the corresponding biomes. You can find the loot by fishing a while, or by using the /loot command.
+### Configuration
 
-Items:
-* Sand (4)
-* Sandstone (4)
-* Red sandstone 
-* Dead bush
-* Cactus
-* Gunpowder
-* Bone block
-* Acacia sapling
+You can customize the loot tables by modifying the files in the `data/adhdmc/loot_tables/gameplay/fishing` folder. These files are written in the [loot table format](https://minecraft.fandom.com/wiki/Loot_table) and can be edited using any text editor.
 
-## End Biomes
+### License
 
-Items:
+This datapack is licensed under the MIT License. See [LICENSE](https://github.com/ADHDMC/LocalizedFishingTables/blob/master/LICENSE) for more information.

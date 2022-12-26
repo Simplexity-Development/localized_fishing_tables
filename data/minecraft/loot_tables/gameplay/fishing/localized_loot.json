@@ -271,7 +271,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/swampy_biomes",
+              "name": "adhdmc:gameplay/fishing/swamp_biomes",
               "conditions": [
                 {
                   "condition": "minecraft:alternative",

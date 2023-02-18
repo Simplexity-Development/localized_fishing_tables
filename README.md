@@ -1,5 +1,7 @@
 # Biome-Specific Fishing Loot Tables
 
+[Modrinth Releases](https://modrinth.com/datapack/localizedfishingtables/versions)
+
 This datapack adds biome-specific fishing loot tables to Minecraft, so that what can be fished up in different biomes is unique and more varied.
 
 ## Features

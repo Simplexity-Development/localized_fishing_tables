@@ -26,7 +26,7 @@ This datapack adds biome-specific fishing loot tables to Minecraft, so that what
 
 ## Installation
 
-    - Download the datapack from the [releases](https://github.com/ADHDMC/LocalizedFishingTables/releases) page.
+    - Download the datapack 
     - Open your Minecraft world and click on "Edit" in the main menu.
     - Click on "Open World Folder" in the "Worlds" tab.
     - Open the "datapacks" folder and place the downloaded datapack zip file in this folder.

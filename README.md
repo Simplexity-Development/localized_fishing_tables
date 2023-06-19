@@ -1,3 +1,5 @@
+> # NOTE: This is broken in 1.20, I do plan on updating this at some point, but it will take a while as it is not at the top of my projects list. If someone would like to PR a fix, I will gladly accept any
+
 # Biome-Specific Fishing Loot Tables
 
 [Modrinth Releases](https://modrinth.com/datapack/localizedfishingtables/versions)

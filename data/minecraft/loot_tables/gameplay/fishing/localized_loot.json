@@ -9,18 +9,13 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/lush_caves",
+              "name": "simplexity:gameplay/fishing/lush_caves",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
-                  "terms": [
-                    {
-                      "condition": "minecraft:location_check",
-                      "predicate": {
-                        "biome": "minecraft:lush_caves"
-                      }
-                    }
-                  ]
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:lush_caves"
+                  }
                 }
               ]
             }
@@ -31,16 +26,22 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/river_biomes",
+              "name": "simplexity:gameplay/fishing/river_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
                         "biome": "minecraft:river"
                       }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:frozen_river"
+                      }
                     }
                   ]
                 }
@@ -53,10 +54,10 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/cave_biomes",
+              "name": "simplexity:gameplay/fishing/cave_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
@@ -75,18 +76,13 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/deep_dark",
+              "name": "simplexity:gameplay/fishing/deep_dark",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
-                  "terms": [
-                    {
-                      "condition": "minecraft:location_check",
-                      "predicate": {
-                        "biome": "minecraft:deep_dark"
-                      }
-                    }
-                  ]
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:deep_dark"
+                  }
                 }
               ]
             }
@@ -97,10 +93,10 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/flower_forests",
+              "name": "simplexity:gameplay/fishing/flower_forests",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
@@ -119,6 +115,12 @@
                       "predicate": {
                         "biome": "minecraft:meadow"
                       }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:cherry_grove"
+                      }
                     }
                   ]
                 }
@@ -131,10 +133,10 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/snow_biomes",
+              "name": "simplexity:gameplay/fishing/snow_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
@@ -213,10 +215,10 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/desert_biomes",
+              "name": "simplexity:gameplay/fishing/desert_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
@@ -271,10 +273,10 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/swamp_biomes",
+              "name": "simplexity:gameplay/fishing/swamp_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
@@ -299,10 +301,10 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/mountain_biomes",
+              "name": "simplexity:gameplay/fishing/mountain_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
@@ -375,10 +377,10 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/plains_biomes",
+              "name": "simplexity:gameplay/fishing/plains_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
@@ -415,18 +417,13 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/end_biomes",
+              "name": "simplexity:gameplay/fishing/end_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
-                  "terms": [
-                    {
-                      "condition": "minecraft:location_check",
-                      "predicate": {
-                        "dimension": "minecraft:the_end"
-                      }
-                    }
-                  ]
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "dimension": "minecraft:the_end"
+                  }
                 }
               ]
             }
@@ -437,10 +434,10 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/dark_forest_biomes",
+              "name": "simplexity:gameplay/fishing/dark_forest_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
@@ -483,10 +480,10 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/mushroom_biomes",
+              "name": "simplexity:gameplay/fishing/mushroom_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
@@ -505,10 +502,10 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/ocean_biomes",
+              "name": "simplexity:gameplay/fishing/ocean_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
@@ -581,10 +578,10 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "adhdmc:gameplay/fishing/jungle_biomes",
+              "name": "simplexity:gameplay/fishing/jungle_biomes",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:location_check",
@@ -612,10 +609,9 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "adhdmc:gameplay/fishing/misc_biomes"
+          "name": "simplexity:gameplay/fishing/misc_biomes"
         }
       ]
     }
   ]
 }
-

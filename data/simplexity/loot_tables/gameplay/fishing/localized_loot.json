@@ -14,7 +14,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biomes": "minecraft:lush_caves"
+                    "biomes": "#simplexity:lush_caves"
                   }
                 }
               ]
@@ -34,7 +34,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": "#minecraft:is_river"
+                        "biomes": "#simplexity:river_biomes"
                       }
                     }
                   ]
@@ -56,7 +56,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": "minecraft:dripstone_caves"
+                        "biomes": "#simplexity:cave_biomes"
                       }
                     }
                   ]
@@ -75,7 +75,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biomes": "minecraft:deep_dark"
+                    "biomes": "#simplexity:deep_dark_biomes"
                   }
                 }
               ]
@@ -95,12 +95,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": [
-                          "minecraft:flower_forest",
-                          "minecraft:sunflower_plains",
-                          "minecraft:meadow",
-                          "minecraft:cherry_grove"
-                        ]
+                        "biomes": "#simplexity:flower_forest_biomes"
                       }
                     }
                   ]
@@ -122,19 +117,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": [
-                          "minecraft:snowy_beach",
-                          "minecraft:snowy_plains",
-                          "minecraft:snowy_slopes",
-                          "minecraft:snowy_taiga",
-                          "minecraft:frozen_river",
-                          "minecraft:deep_frozen_ocean",
-                          "minecraft:frozen_ocean",
-                          "minecraft:frozen_peaks",
-                          "minecraft:ice_spikes",
-                          "minecraft:grove",
-                          "minecraft:jagged_peaks"
-                        ]
+                        "biomes": "#simplexity:snow_biomes"
                       }
                     }
                   ]
@@ -156,15 +139,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": [
-                          "minecraft:savanna",
-                          "minecraft:savanna_plateau",
-                          "minecraft:windswept_savanna",
-                          "minecraft:badlands",
-                          "minecraft:eroded_badlands",
-                          "minecraft:wooded_badlands",
-                          "minecraft:desert"
-                        ]
+                        "biomes": "#simplexity:snow_biomes"
                       }
                     }
                   ]
@@ -186,10 +161,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": [
-                          "minecraft:mangrove_swamp",
-                          "minecraft:swamp"
-                        ]
+                        "biomes": "#simplexity:swamp_biomes"
                       }
                     }
                   ]
@@ -211,18 +183,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": [
-                          "minecraft:grove",
-                          "minecraft:snowy_slopes",
-                          "minecraft:jagged_peaks",
-                          "minecraft:frozen_peaks",
-                          "minecraft:windswept_savanna",
-                          "minecraft:savanna_plateau",
-                          "minecraft:windswept_hills",
-                          "minecraft:windswept_gravelly_hills",
-                          "minecraft:windswept_forest",
-                          "minecraft:stony_shore"
-                        ]
+                        "biomes": "#simplexity:mountain_biomes"
                       }
                     }
                   ]
@@ -244,12 +205,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": [
-                          "minecraft:plains",
-                          "minecraft:birch_forest",
-                          "minecraft:forest",
-                          "minecraft:old_growth_birch_forest"
-                        ]
+                        "biomes": "#simplexity:plains_biomes"
                       }
                     }
                   ]
@@ -268,8 +224,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biomes": "#minecraft:is_end",
-                    "dimension": "minecraft:the_end"
+                    "biomes": "#simplexity:end_biomes"
                   }
                 }
               ]
@@ -289,13 +244,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": [
-                          "minecraft:dark_forest",
-                          "minecraft:old_growth_pine_taiga",
-                          "minecraft:old_growth_spruce_taiga",
-                          "minecraft:taiga",
-                          "minecraft:mushroom_fields"
-                        ]
+                        "biomes": "#simplexity:dark_forest_biomes"
                       }
                     }
                   ]
@@ -317,7 +266,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": "minecraft:mushroom_fields"
+                        "biomes": "#simplexity:mushroom_biomes"
                       }
                     }
                   ]
@@ -339,19 +288,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": "#minecraft:is_ocean"
-                      }
-                    },
-                    {
-                      "condition": "minecraft:location_check",
-                      "predicate": {
-                        "biomes": "#minecraft:is_deep_ocean"
-                      }
-                    },
-                    {
-                      "condition": "minecraft:location_check",
-                      "predicate": {
-                        "biomes": "#minecraft:is_beach"
+                        "biomes": "#simplexity:ocean_biomes"
                       }
                     }
                   ]
@@ -373,7 +310,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "biomes": "#minecraft:is_jungle"
+                        "biomes": "#simplexity:jungle_biomes"
                       }
                     }
                   ]

@@ -31,7 +31,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:gameplay/fishing/localized_loot",
+          "value": "simplexity:gameplay/fishing/localized_loot",
           "weight": 25,
           "quality": 1
         },

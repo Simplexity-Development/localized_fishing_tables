@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:brown_mushroom",
+          "name": "minecraft:terracotta",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -19,7 +19,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_mushroom",
+          "name": "minecraft:dead_bush",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -32,7 +32,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bowl",
+          "name": "minecraft:red_sand",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -45,7 +45,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:dark_oak_sapling",
+          "name": "minecraft:red_sandstone",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -58,7 +58,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:spruce_sapling",
+          "name": "minecraft:flower_pot",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -71,7 +71,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:podzol",
+          "name": "minecraft:cactus",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -84,7 +84,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:apple",
+          "name": "minecraft:white_terracotta",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -97,20 +97,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:spruce_sapling",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dandelion",
+          "name": "minecraft:orange_terracotta",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -123,52 +110,26 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coarse_dirt",
+          "name": "minecraft:yellow_terracotta",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 16
+                "max": 4
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:fern",
+          "name": "minecraft:red_terracotta",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:mossy_cobblestone",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 32
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gravel",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 32
+                "max": 4
               }
             }
           ]

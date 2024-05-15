@@ -1,15 +1,22 @@
 {
   "replace": false,
   "values": [
-    "minecraft:grove",
-    "minecraft:snowy_slopes",
-    "minecraft:jagged_peaks",
+    "#minecraft:is_mountain",
+    "#minecraft:is_hill",
+    "terralith:fractured_savanna",
+    "terralith:cloud_forest",
+    "terralith:jungle_mountains",
+    "terralith:haze_mountain",
+    "minecraft:meadow",
     "minecraft:frozen_peaks",
-    "minecraft:windswept_savanna",
-    "minecraft:savanna_plateau",
-    "minecraft:windswept_hills",
-    "minecraft:windswept_gravelly_hills",
-    "minecraft:windswept_forest",
-    "minecraft:stony_shore"
+    "minecraft:jagged_peaks",
+    "minecraft:stony_peaks",
+    "minecraft:snowy_slopes",
+    "terralith:emerald_peaks",
+    "terralith:scarlet_mountains",
+    "terralith:rocky_mountains",
+    "terralith:caldera",
+    "terralith:volcanic_peaks",
+    "terralith:snowy_cherry_grove"
   ]
 }

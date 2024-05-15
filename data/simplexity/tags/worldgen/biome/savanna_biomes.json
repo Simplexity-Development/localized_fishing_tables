@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_savanna",
+    "terralith:fractured_savanna",
+    "terralith:savanna_slopes"
+  ]
+}

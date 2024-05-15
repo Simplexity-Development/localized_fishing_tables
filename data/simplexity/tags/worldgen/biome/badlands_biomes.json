@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_badlands",
+    "terralith:painted_mountains",
+    "terralith:bryce_canyon",
+    "terralith:savanna_badlands"
+  ]
+}

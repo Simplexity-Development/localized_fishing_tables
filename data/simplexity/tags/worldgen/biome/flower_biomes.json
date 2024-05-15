@@ -4,6 +4,8 @@
     "minecraft:flower_forest",
     "minecraft:sunflower_plains",
     "minecraft:meadow",
-    "minecraft:cherry_grove"
+    "minecraft:cherry_grove",
+    "terralith:blooming_plateau",
+    "terralith:blooming_valley"
   ]
 }

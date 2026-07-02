@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:alpha_islands",
+    "terralith:alpha_islands_winter",
+    "terralith:skylands_autumn",
+    "terralith:skylands_spring",
+    "terralith:skylands_summer",
+    "terralith:skylands_winter"
+  ]
+}

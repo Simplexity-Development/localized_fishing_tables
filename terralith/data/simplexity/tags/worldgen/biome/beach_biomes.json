@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "#minecraft:is_beach",
-    "terralith:gravel_beach"
+    "terralith:gravel_beach",
+    "terralith:basalt_cliffs",
+    "terralith:granite_cliffs"
   ]
 }

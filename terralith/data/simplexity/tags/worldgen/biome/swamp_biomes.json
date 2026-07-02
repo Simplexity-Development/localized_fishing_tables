@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "minecraft:mangrove_swamp",
-    "minecraft:swamp"
+    "minecraft:swamp",
+    "terralith:ice_marsh",
+    "terralith:orchid_swamp"
   ]
 }

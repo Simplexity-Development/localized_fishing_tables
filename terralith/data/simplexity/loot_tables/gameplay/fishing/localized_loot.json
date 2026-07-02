@@ -26,6 +26,23 @@
           "children": [
             {
               "type": "minecraft:loot_table",
+              "value": "simplexity:gameplay/fishing/loot_tables/sky",
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "#simplexity:sky_biomes"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
               "value": "simplexity:gameplay/fishing/loot_tables/river",
               "conditions": [
                 {

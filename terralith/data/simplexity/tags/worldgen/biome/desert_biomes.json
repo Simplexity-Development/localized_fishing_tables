@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "minecraft:desert"
+    "minecraft:desert",
+    "terralith:ancient_sands",
+    "terralith:desert_canyon",
+    "terralith:desert_oasis",
+    "terralith:desert_spires",
+    "terralith:lush_desert",
+    "terralith:sandstone_valley"
   ]
 }

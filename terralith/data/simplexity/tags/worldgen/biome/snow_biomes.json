@@ -11,6 +11,9 @@
     "minecraft:frozen_peaks",
     "minecraft:ice_spikes",
     "minecraft:grove",
-    "minecraft:jagged_peaks"
+    "minecraft:jagged_peaks",
+    "terralith:frozen_cliffs",
+    "terralith:glacial_chasm",
+    "terralith:gravel_desert"
   ]
 }

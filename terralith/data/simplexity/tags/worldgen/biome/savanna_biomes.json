@@ -3,6 +3,8 @@
   "values": [
     "#minecraft:is_savanna",
     "terralith:fractured_savanna",
-    "terralith:savanna_slopes"
+    "terralith:savanna_slopes",
+    "terralith:brushland",
+    "terralith:shrubland"
   ]
 }

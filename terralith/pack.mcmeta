@@ -1,6 +1,11 @@
 {
-	"pack": {
-		"pack_format": 41,
-		"description": {"text":"Biome-specific Fishing Loot","color":"yellow"}
-	}
+  "pack": {
+    "min_format": 88,
+    "max_format": 107.1,
+    "pack_format": 107.1,
+    "description": {
+      "text": "Biome-specific Fishing Loot",
+      "color": "yellow"
+    }
+  }
 }
